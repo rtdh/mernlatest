@@ -23,8 +23,6 @@ app.use(passport.initialize())
 // Passport Config
 require('./config/passport')(passport)
 
-
-
 // Routes
 const connectionRoutes = require('./routes/connection')
 const sampleRoutes = require('./routes/sample')
